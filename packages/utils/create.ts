@@ -58,7 +58,7 @@ function createBEM(prefixName: string) {
   };
 }
 
-function createNamespace(name: string) {
+export function createNamespace(name: string) {
   const prefixName = `z-${name}`;
   return createBEM(prefixName);
 }
